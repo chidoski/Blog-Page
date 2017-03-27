@@ -1,0 +1,53 @@
+/*20 pixel border
+border color: #bdc3c7
+date color: #3498db
+h2 color #2c3e50
+
+font: source sans pro
+
+left border
+
+make sure everything is aligned..margin padding
+
+letter spacing
+
+horizontal rule - hr styles google*/
+
+body{
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  max-width: 700px;
+  width: 80%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+h2{
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+body p:nth-of-type(1){
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+body .post:nth-of-type(2){
+  margin-top: 30px;
+}
+
+.date{
+  letter-spacing: .5em;
+  color: #3498db;
+  text-transform: uppercase;
+}
+
+.post{
+  margin-bottom: 20px 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
